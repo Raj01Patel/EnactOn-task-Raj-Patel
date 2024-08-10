@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  background-color: rgb(19, 15, 12, 1);
+  color: #ffffff;
+}
+
+.swiper-pagination {
+  background: transparent;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-slide {
+  margin-right: 0px;
+}
+
+.swiper-button-prev {
+  background: transparent;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+
+.swiper-button-next {
+  background: transparent;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+}
+
+.swiper-button-prev,
+.swiper-button-next::after {
+  color: white;
+}
+
+.signup {
+  background-image: url("https://s3-alpha-sig.figma.com/img/5917/02f5/1ae17d362cff488918a26664b4eaf51c?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FwB9R0bAtu-K2H-gZS11Pl6m6eVtTIPR4y-lAJjnCNsmEGPtrk69Ze5VFBCAW2zL2kNMKPUM~TQs6nYIwWduwIqR~YolIZ8RTL1KvHnKlTwt6P2xsoS7vabeZnZg4ZnjIwhF-Vu3nGFFGWADJ5M-AJHA-nms8msKlVlEQxyDqfx2gKNZ1869ELZEJKG0L2vDU8ug3VMJizXkbmhVIIpp9x1nw9GK31g0T9ohu32Kpa6SerW9YF1Hi11DvkqCPREqwEYjzcNcIDxN6hwCZ-0aaOAAp~dFxdUBWR7GfID5mPb7bPUIh1PvC0Te8gbFEO4zJ5crgwq0LyiaKPwviYWx8g__");
+  background-repeat: no-repeat;
+}
+
+.sidebar {
+  border-right: 5px solid #D29A5A;
+}
